@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	background: #fcf2f2;
+}
+
+#contenedor{
+	width: 750px;
+	height: 750px;
+	background: rgb(250, 195, 75);
+	margin: auto;
+	margin-top: 10px;
+
+}
+header{
+	width: 750px;
+	height: 250px;
+	background: #FEF9E7 ;
+}
+#banner{
+	width: 350px;
+	height: 125px;
+	background: #7c5a34;
+	float: left;
+}
+
+#logo{
+	height: 125px;
+	width: 400px;
+	background: rgb(115, 113, 241)(253, 194, 194);
+	float: left;
+}
+#buscador1{
+	height: 125px;
+	width: 750px;
+	background: rgb(245, 245, 157);
+	float: left;
+}
+nav{
+	height: 50px;
+	background: #7c5a34;
+}
+nav ul{
+	list-style: none;
+
+}
+nav ul li{
+	float: left;
+}
+nav a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 25px;
+	line-height: 50px;
+	font-family: "Montserrat", sans-serif;
+
+}
+.nav-menu-link:hover {
+	background-color: #d3bb51;
+}
+main{
+	height: 400px;
+	background: rgb(87, 40, 216);
+
+}
+article{
+	width: 500px;
+	height: 400px;
+	background:#c7ffca;
+	float: left;
+	font-family: "Montserrat", sans-serif;
+	
+}
+#derecha{
+	height: 400px;
+	width: 250px;
+	background: rgb(245, 225, 176);
+	float: left;
+}
+footer{
+	color: #fcf2f2;
+	height: 50px;
+	background: #7c5a34;
+	font-family: "Montserrat", sans-serif;
+}

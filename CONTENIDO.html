@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="img/image.jpg">
+    <style>
+      *{/*Los parámetros aplicados aquí afectarán a toda la página*/
+        font-family: "Montserrat", sans-serif; /*Fuente de todo el documento*/
+        margin: 20px;  /*establece los márgenes de un elemento especificando entre 1 y 4 valores*/
+      }
+      
+      html {
+		  height: 100%;
+	  	margin: 0;
+		  background-image: url("img/g0e4.gif");
+	}
+      header, footer { /*al incluir más de una etiqueta en un grupo, estos parámetros serán aplicados en ambas etiquetas*/
+        display: flex;/*establece los tipos de visualización interna y externa de un elemento*/
+        justify-content: center; /*justifica el contenido de la etiqueta*/
+        height: 100%;
+        margin: 0%;
+      }
+
+      #foto {
+        border-radius: 10px; /*crea un radio en los parámetros especificados*/
+        box-shadow: 15px; /*crea una sombrea interna en la imagen*/
+        float: right; /*ubica un elemento al lado izquierdo o derecho de su contenedor para aparecer a su costado*/
+        width: 250px;
+        height: 150px;
+      }
+
+      #navegador{
+        background-color: rgb(139, 116, 66);
+        margin: auto;
+        padding: 15px;
+        line-height: 3%;
+      }
+      
+      #nave{
+        background-color: rgba(220, 118, 51);
+      }
+
+      #name:hover { /*el parámetro hover modifica la reacción de la página al contacto con el mouse*/
+        font-weight: bold; /*decide el grosor de cualquier línea o de cualquier fuente*/
+        color: rgb(255, 255, 255);
+      }
+
+      ol {
+        margin: 20px 0 0 -20px;
+        color: rgb(94, 84, 84);
+        font-size: 16px; /*tamaño de la fuente utilizada*/
+      }
+
+      a {
+        text-decoration: none; /*decide si al enlace se lo coloca con azul y subrayado*/
+        color: rgb(255, 255, 255);
+      }
+
+      a:hover {
+        font-weight: bold;
+        color: black;
+      }
+
+      a:active { /*active indica que si el enlace junto al que está, es presionado, se cumplirán ciertos parámetros en la misma*/
+         color: green;
+      }
+
+      li {
+        margin-top: 30px;
+      }
+    </style>
+
+    <title>TIPOS</title>
+  </head>
+  <body>
+    <header>
+        <img src="img/tipos.png" width="1000"/>
+    </header>
+
+    <nav id="navegador">
+      <ul>
+        <a href="index.html">INICIO</a>
+        <a href="tem1.html">TEMA 1</a>
+        <a href="tem2.html">TEMA 2</a>
+        <a href="tem3.html">TEMA 3</a>
+        
+      </ul>
+    </nav>
+    <aside>
+      <img id="foto" src="img/1234.jpg" width="2000" height="1000" class="foto" />
+      <p>Con el paso de los años, las herramientas ofimáticas han ido evolucionando y ampliando 
+        sus funciones. Asimismo, han ido surgiendo nuevas opciones en el mercado que facilitan aún 
+        más este tipo de tareas, lo que permite ahorrar mucho tiempo y aumenta la productividad de 
+        los usuarios. En la actualidad, hay muchas clases de herramientas ofimáticas, pero las 
+        principales son las siguientes:</p>
+       <img src="img/2.png" width="350" height="30" />
+      
+       <table border="1"cellpadding="0" cellspacing="0" width="60%" bgcolor="#E59866 ">
+                        <!-- Row ó Fila-->
+                        <tr>
+                            <th> Tema 1</th>
+                            <td> Procesadores de texto</td>
+                            <td> Microsoft Word, Google Docs, LibreOffice Writer.</td>
+                           
+                        </tr>
+                        <tr>
+                          <th> Tema 2</th>
+                          <td> Hojas de Calculo</td>
+                          <td> Microsoft Excel, Google Sheets, LibreOffice Calc.</td>
+                         
+                        </tr>
+                        <tr>
+                          <th> Tema 3</th>
+                          <td> Herramientas de Colaboración</td>
+                          <td> Microsoft Teams, Slack, Trello, Asana.</td>
+                         
+                      </tr>
+      </table> 
+
+         <img src="img/3.png" width="350" height="30" />
+
+<p>Si tenemos en cuenta que la palabra ofimática es un acrónimo de las palabras oficina e informática, 
+  podemos deducir de manera fácil su significado. En este sentido, este concepto hace referencia al 
+  conjunto de aplicaciones, técnicas y herramientas informáticas que permiten optimizar y automatizar 
+  las tareas y procedimientos propios de una oficina. </p>
+       
+  <center><iframe src="https://prezi.com/p/embed/ikvk0duaoj5x/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="315" width="560"></iframe></center>
+      </p>
+    </aside>
+    <footer>
+      <p id="direccion">
+        Calle Javier Ezponosa, <span>Quito</span> Ecuador | Tel:
+        <span>0987742421</span>
+      </p>
+
+    </footer>
+  </body>
+</html>
